@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "from-ndjson": "1.0.4"
+  }
+}
