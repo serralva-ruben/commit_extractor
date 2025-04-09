@@ -1,6 +1,5 @@
 import json
 
-
 def split_concatenated_json(content):
     """
     Split a string that contains multiple concatenated JSON objects.
