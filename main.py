@@ -1,111 +1,113 @@
-import os
-import json
 from pprint import pprint
 import pandas as pd
 from urllib.parse import urlparse
+from utils import split_concatenated_json, load_ndjson
+import requests
+from bs4 import BeautifulSoup
+import json
+import os
+import concurrent
+import concurrent.futures
+from tqdm import tqdm
+import threading 
+from regex_analyze import detect_git_commit_info
 
-def split_concatenated_json(content):
-    """
-    Split a string that contains multiple concatenated JSON objects.
-    Returns a list of individual JSON objects.
-    """
-    objects = []
-    i = 0
-    content_len = len(content)
-    
-    while i < content_len:
-        # Find the start of a JSON object
-        while i < content_len and content[i] != '{':
-            i += 1
-            
-        if i >= content_len:
-            break
-            
-        # Keep track of nested braces
-        start_pos, brace_count = i, 1
-        i += 1
+objects = load_ndjson('./jsondumps/xsy.ndjson')
+
+
+
+def extract_references(objects):
+    print("Extracting references from objects...")
+    urls = {}
+
+    def process_object(obj_index):
+        obj = objects[obj_index]
+        obj_urls = {}
         
-        # Find the matching closing brace
-        while i < content_len and brace_count > 0:
-            if content[i] == '{':
-                brace_count += 1
-            elif content[i] == '}':
-                brace_count -= 1
-            i += 1
-            
-        if brace_count == 0:
-            # Extract the complete JSON object
-            json_str = content[start_pos:i]
-            try:
-                obj = json.loads(json_str)
-                objects.append(obj)
-            except json.JSONDecodeError:
-                pass  # Skip invalid JSON
-    
-    return objects
-
-def load_ndjson(input_file):
-    """Process NDJSON file with concatenated JSON objects per line."""
-    objects, line_count = [], 0
-
-    # Get file size for reporting
-    # Process the file line by line
-    with open(input_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            line_count += 1
-            if not line.strip():
+        for url in obj["containers"]["cna"].get("references", "none"):
+            if isinstance(url, str) or url.get("url", "") in urls:
                 continue
+
+            if (url.get("url", "").startswith("https://") or url.get("url", "").startswith("http://")):
+                domain = urlparse(url.get("url", "")).netloc
+                if domain not in obj_urls:
+                    obj_urls[domain] = []
                 
-            # Split the line into individual JSON objects
-            objs = split_concatenated_json(line)
-            for obj in objs:
-                objects.append(obj)            
-
-        return objects
-
-objects = load_ndjson('xsy.ndjson')
-
-product_names = []
-descriptions = []
-references = []
-
-#pprint( objects[0]["containers"]["cna"].keys() )
-
-urls = {}
-
-for obj in objects:
-    product_names.append(obj["containers"]["cna"].get("affected","none"))
-    descriptions.append(obj["containers"]["cna"].get("descriptions","none"))
-    for url in obj["containers"]["cna"].get("references", "none"):
-        #print(url)
-        if type(url) == str:
-            #print(f" str : {url}")
-            continue
-        if url.get("url","").startswith("https://") and url.get("url","") not in urls:
-            domain = urlparse(url.get("url","")).netloc
-
-            if domain not in urls:
-                urls[domain] = 1
-            else:
-                urls[domain] += 1
+                if len(obj_urls[domain]) < 5:  # Limit to 5 URLs per domain
+                    obj_urls[domain].append(url.get("url", ""))
+        
+        return obj_urls
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        # Process objects in parallel
+        futures = [executor.submit(process_object, i) for i in range(len(objects))]
+        
+        for future in tqdm(concurrent.futures.as_completed(futures), total=len(objects)):
+            obj_urls = future.result()
+            
+            for domain, domain_urls in obj_urls.items():
+                if domain not in urls:
+                    urls[domain] = []
+                
+                for url in domain_urls:
+                    if len(urls[domain]) < 5 and url not in urls[domain]:
+                        urls[domain].append(url)
+    return urls
 
 
-sorted_dict_desc = dict(sorted(urls.items(), key=lambda item: item[1], reverse=True))
+def extract_valid_git_domains(references):
+    print("Extracting valid domains...")
+    git_domains = {}
+    # Use thread-safe dictionary access
+    domains_lock = threading.Lock()
 
+    def process_url(ref, url):
+        try:
+            response = requests.get(url, timeout=2)
 
-for domain in sorted_dict_desc:
-    print(f"{domain} : {urls[domain]}\n")
+            if response.status_code != 200:
+                return None
 
-#references.append(obj["containers"]["cna"].get("references", "none"))
+            soup = BeautifulSoup(response.content, 'html.parser')
 
+            for script in soup(["script", "style", "head", "title", "meta", "[document]"]):
+                script.decompose()
+    
+            text = soup.get_text(separator=' ', strip=True)
 
-##print(urls)
+            analysis = detect_git_commit_info(text)
 
-#df = pd.DataFrame({
-#    'product_name': product_names,
-#    'description': descriptions,
-#    'reference': references
-#})
+            print(f"Analyzing {url} from ref {ref}:")
+            print(analysis)
 
+            if analysis:
+                # Use lock when modifying the shared dictionary
+                with domains_lock:
+                    if ref not in git_domains:
+                        git_domains[ref] = []
+                    git_domains[ref].append(url)
+                
+                return (ref, url)
+            return None
 
-#df.to_csv('output.csv', index=False)  # index=False prevents writing row numbers
+        except requests.RequestException as e:
+            print(f"Error fetching {url}: {e}")
+            return None
+
+    tasks = []
+    for ref in references.keys():
+        for url in references[ref]:
+            tasks.append((ref, url))
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        # Process URLs in parallel
+        futures = [executor.submit(process_url, ref, url) for ref, url in tasks]
+        
+        for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures)):
+            future.result()
+    
+    return git_domains
+
+with open('output.txt', 'w') as file:
+    json.dump(extract_valid_git_domains(extract_references(objects)), file, indent=4)
+

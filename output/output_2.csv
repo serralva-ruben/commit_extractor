@@ -1,0 +1,210 @@
+domain,urls
+www.zerodayinitiative.com,"['https://www.zerodayinitiative.com/advisories/ZDI-21-625/', 'https://www.zerodayinitiative.com/advisories/ZDI-21-626/', 'https://www.zerodayinitiative.com/advisories/ZDI-21-627/', 'https://www.zerodayinitiative.com/advisories/ZDI-21-628/', 'https://www.zerodayinitiative.com/advisories/ZDI-21-629/', 'https://www.zerodayinitiative.com/advisories/ZDI-21-630/']"
+www.netshieldcorp.com,['https://www.netshieldcorp.com/netshield-appliances/']
+www.digitaldefense.com,['https://www.digitaldefense.com/resources/vulnerability-research/netshield-corporation-nano-25/']
+kc.mcafee.com,"['https://kc.mcafee.com/corporate/index?page=content&id=SB10356', 'https://kc.mcafee.com/corporate/index?page=content&id=SB10356', 'https://kc.mcafee.com/corporate/index?page=content&id=SB10348', 'https://kc.mcafee.com/corporate/index?page=content&id=SB10359', 'https://kc.mcafee.com/corporate/index?page=content&id=SB10359', 'https://kc.mcafee.com/corporate/index?page=content&id=SB10360']"
+wiki.cryptshare.com,['https://wiki.cryptshare.com/display/CSM/Update+from+v4.7.1+to+v4.8.1']
+kb.arlo.com,['https://kb.arlo.com/000062592/Security-Advisory-for-Arlo-Q-Plus-SSH-Use-of-Hard-coded-Credentials-Allowing-Privilege-Escalation']
+www.wizlynxgroup.com,['https://www.wizlynxgroup.com/security-research-advisories/vuln/WLX-2020-056']
+www.i-doit.org,['https://www.i-doit.org/news/']
+packetstormsecurity.com,"['http://packetstormsecurity.com/files/162815/i-doit-1.15.2-Cross-Site-Scripting.html', 'http://packetstormsecurity.com/files/162737/libX11-Insufficient-Length-Check-Injection.html', 'http://packetstormsecurity.com/files/161160/Sudo-Heap-Based-Buffer-Overflow.html', 'http://packetstormsecurity.com/files/161230/Sudo-Buffer-Overflow-Privilege-Escalation.html', 'http://packetstormsecurity.com/files/161270/Sudo-1.9.5p1-Buffer-Overflow-Privilege-Escalation.html', 'http://packetstormsecurity.com/files/161293/Sudo-1.8.31p2-1.9.5p1-Buffer-Overflow.html']"
+binary.ninja,"['https://binary.ninja/2021/06/03/2.4-release.html#security-advisories', 'https://binary.ninja/2021/06/03/2.4-release.html#security-advisories']"
+helpcenter.trendmicro.com,"['https://helpcenter.trendmicro.com/en-us/article/TMKA-10312', 'https://helpcenter.trendmicro.com/en-us/article/TMKA-10312', 'https://helpcenter.trendmicro.com/en-us/article/TMKA-10310']"
+www.home-assistant.io,"['https://www.home-assistant.io/blog/2021/01/14/security-bulletin/', 'https://www.home-assistant.io/blog/2021/01/22/security-disclosure/']"
+success.trendmicro.com,"['https://success.trendmicro.com/solution/000286439', 'https://success.trendmicro.com/solution/000286452']"
+lists.apache.org,"['https://lists.apache.org/thread/hh5crx3yr701zd8wtpqo1mww2rlkvznw', 'https://lists.apache.org/thread.html/r61db8e7dcb56dc000a5387a88f7a473bacec5ee01b9ff3f55308aacc%40%3Cdev.kafka.apache.org%3E', 'https://lists.apache.org/thread.html/r61db8e7dcb56dc000a5387a88f7a473bacec5ee01b9ff3f55308aacc%40%3Cusers.kafka.apache.org%3E', 'https://lists.apache.org/thread.html/rbf4ce74b0d1fa9810dec50ba3ace0caeea677af7c27a97111c06ccb7%40%3Cusers.kafka.apache.org%3E', 'https://lists.apache.org/thread.html/rbf4ce74b0d1fa9810dec50ba3ace0caeea677af7c27a97111c06ccb7%40%3Cdev.kafka.apache.org%3E', 'https://lists.apache.org/thread.html/r14b66ef0f4f569fd515a3f96cd4eb58bd9a8ff525cc326bb0359664f%40%3Ccvs.httpd.apache.org%3E']"
+www.openwall.com,"['http://www.openwall.com/lists/oss-security/2022/01/06/4', 'https://www.openwall.com/lists/oss-security/2021/04/17/1', 'http://www.openwall.com/lists/oss-security/2021/04/21/3', 'http://www.openwall.com/lists/oss-security/2021/05/18/2', 'https://www.openwall.com/lists/oss-security/2021/05/18/3', 'https://www.openwall.com/lists/oss-security/2021/05/18/2']"
+groups.google.com,"['https://groups.google.com/g/golang-announce/c/cu9SP4eSXMc', 'https://groups.google.com/forum/#%21forum/django-announce']"
+github.com,"['https://github.com/golang/go/issues/45710', 'https://github.com/django/django/commit/04ac1624bdc2fa737188401757cf95ced122d26d', 'https://github.com/django/django/commit/25d84d64122c15050a0ee739e859f22ddab5ac48', 'https://github.com/django/django/commit/c98f446c188596d4ba6de71d1b77b4a6c5c2a007', 'https://github.com/snapcore/snapd/commit/6bcaeeccd16ed8298a301dd92f6907f88c24cc85', 'https://github.com/snapcore/snapd/commit/7d2a966620002149891446a53cf114804808dcca']"
+lists.fedoraproject.org,"['https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ISRZZ6NY5R2TBYE72KZFOCO25TEUQTBF/', 'https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TEOT4RLB76RVPJQKGGTIKTBIOLHX2NR6/', 'https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZVKYPHR3TKR2ESWXBPOJEKRO2OSJRZUE/', 'https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/B4SQG2EAF4WCI2SLRL6XRDJ3RPK3ZRDV/', 'https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QNEAI2T3Y65I55ZB6UE6RMC662RZTGRX/', 'https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CJDYJQWT43GBD6GNQ4OW7JOZ6WQ6DZTN/']"
+security.gentoo.org,"['https://security.gentoo.org/glsa/202208-02', 'https://security.gentoo.org/glsa/202105-16', 'https://security.gentoo.org/glsa/202101-33', 'https://security.gentoo.org/glsa/202310-22', 'https://security.gentoo.org/glsa/202107-38', 'https://security.gentoo.org/glsa/202101-18']"
+discuss.hashicorp.com,['https://discuss.hashicorp.com/t/hcsec-2021-06-terraform-enterprise-organization-level-mfa-requirement-was-not-enforced/22401']
+www.manageengine.com,"['https://www.manageengine.com/products/service-desk-msp/readme.html#10522', 'https://www.manageengine.com/products/service-desk-msp/readme.html#10521', 'https://www.manageengine.com/products/applications_manager/security-updates/security-updates-cve-2021-31813.html', 'https://www.manageengine.com', 'https://www.manageengine.com/products/passwordmanagerpro/release-notes.html#pmp11104']"
+excellium-services.com,"['https://excellium-services.com/cve-2021-31530/', 'https://excellium-services.com/cert-xlm-advisory/cve-2021-31531/', 'https://excellium-services.com/cert-xlm-advisory/']"
+www.nxp.com,['https://www.nxp.com']
+oxide.computer,['https://oxide.computer/blog/lpc55/']
+unparalleled.eu,"['https://unparalleled.eu/publications/2021/advisory-unpar-2021-1.txt', 'https://unparalleled.eu/blog/2021/20210518-using-xterm-to-navigate-the-huge-color-space/']"
+lists.freedesktop.org,['https://lists.freedesktop.org/archives/xorg/']
+seclists.org,"['http://seclists.org/fulldisclosure/2021/May/52', 'http://seclists.org/fulldisclosure/2021/May/20', 'http://seclists.org/fulldisclosure/2021/Jan/79', 'http://seclists.org/fulldisclosure/2021/Feb/42', 'http://seclists.org/fulldisclosure/2024/Feb/3', 'https://seclists.org/oss-sec/2021/q2/206']"
+lists.debian.org,"['https://lists.debian.org/debian-lts-announce/2021/05/msg00021.html', 'https://lists.debian.org/debian-lts-announce/2021/05/msg00005.html', 'https://lists.debian.org/debian-lts-announce/2021/01/msg00022.html', 'https://lists.debian.org/debian-lts-announce/2022/11/msg00030.html', 'https://lists.debian.org/debian-lts-announce/2021/07/msg00005.html', 'https://lists.debian.org/debian-lts-announce/2021/11/msg00009.html']"
+www.debian.org,"['https://www.debian.org/security/2021/dsa-4920', 'https://www.debian.org/security/2021/dsa-4839', 'https://www.debian.org/security/2021/dsa-5011', 'https://www.debian.org/security/2021/dsa-4937', 'https://www.debian.org/security/2021/dsa-4924', 'https://www.debian.org/security/2021/dsa-4924']"
+lists.x.org,['https://lists.x.org/archives/xorg-announce/2021-May/003088.html']
+gitlab.freedesktop.org,['https://gitlab.freedesktop.org/xorg/lib/libx11/-/commit/8d2e02ae650f00c4a53deb625211a0527126c605']
+security.netapp.com,"['https://security.netapp.com/advisory/ntap-20210813-0001/', 'https://security.netapp.com/advisory/ntap-20210618-0001/', 'https://security.netapp.com/advisory/ntap-20210128-0002/', 'https://security.netapp.com/advisory/ntap-20210128-0001/', 'https://security.netapp.com/advisory/ntap-20210618-0004/', 'https://security.netapp.com/advisory/ntap-20210727-0008/']"
+sisinformatik.com,['https://sisinformatik.com/rewe-go/']
+sec-consult.com,['https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-sis-infromatik-rewe-go-cve-2021-31537/']
+www.syss.de,"['https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2021-010.txt', 'https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2021-024.txt']"
+www.wowza.com,"['https://www.wowza.com/products/streaming-engine', 'https://www.wowza.com/docs/wowza-streaming-engine-4-8-8-01-release-notes#breaking', 'https://www.wowza.com/products/streaming-engine', 'https://www.wowza.com/docs/wowza-streaming-engine-4-8-12-release-notes']"
+www.gruppotim.it,"['https://www.gruppotim.it/redteam', 'https://www.gruppotim.it/redteam']"
+documentation.solarwinds.com,['https://documentation.solarwinds.com/en/success_center/servu/content/release_notes/servu_15-2-2_release_notes.htm']
+docs.djangoproject.com,['https://docs.djangoproject.com/en/3.2/releases/security/']
+www.djangoproject.com,['https://www.djangoproject.com/weblog/2021/may/04/security-releases/']
+phabricator.wikimedia.org,"['https://phabricator.wikimedia.org/T71367', 'https://phabricator.wikimedia.org/T71617', 'https://phabricator.wikimedia.org/T223654', 'https://phabricator.wikimedia.org/T272333', 'https://phabricator.wikimedia.org/T274152', 'https://phabricator.wikimedia.org/T270767']"
+gerrit.wikimedia.org,"['https://gerrit.wikimedia.org/r/q/I8d5ed9ca84282ee50832035af86123633fc88293', 'https://gerrit.wikimedia.org/r/q/I38a0a24fa32ca7a052b6940864a32b3856e84553', 'https://gerrit.wikimedia.org/r/q/I3f7dbd8b873d411e37c8c3aac2339bf5ec36907d', 'https://gerrit.wikimedia.org/r/q/I4900b1be73323599d74e3164447f81eded094d75', 'https://gerrit.wikimedia.org/r/q/Ifac795125927d584a31d95e1b4c4241eef860fa1', 'https://gerrit.wikimedia.org/r/q/I6063c02fa261c4cc0e6dbbb2db4e111eb85912c2']"
+ubuntu.com,['https://ubuntu.com/security/notices/USN-5292-1']
+www.cisa.gov,"['https://www.cisa.gov/uscert/ics/advisories/icsa-21-238-03', 'https://www.cisa.gov/uscert/ics/advisories/icsma-21-355-01']"
+www.splunk.com,['https://www.splunk.com/en_us/product-security/announcements/svd-2022-0503.html']
+tools.cisco.com,['https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sudo-privesc-jan2021-qnYQfcM']
+www.kb.cert.org,['https://www.kb.cert.org/vuls/id/794544']
+www.oracle.com,"['https://www.oracle.com//security-alerts/cpujul2021.html', 'https://www.oracle.com/security-alerts/cpuoct2021.html', 'https://www.oracle.com/security-alerts/cpuapr2022.html', 'https://www.oracle.com/security-alerts/cpuoct2021.html', 'https://www.oracle.com/security-alerts/cpujan2022.html', 'https://www.oracle.com/security-alerts/cpujul2022.html']"
+www.sudo.ws,['https://www.sudo.ws/stable.html#1.9.5p2']
+support.apple.com,['https://support.apple.com/kb/HT212177']
+www.beyondtrust.com,"['https://www.beyondtrust.com/blog/entry/security-advisory-privilege-management-for-unix-linux-pmul-basic-and-privilege-management-for-mac-pmm-affected-by-sudo-vulnerability', 'https://www.beyondtrust.com/docs/release-notes/index.htm', 'https://www.beyondtrust.com/docs/release-notes/privilege-management/index.htm', 'https://www.beyondtrust.com/trust-center/security-advisories/bt22-06']"
+www.synology.com,['https://www.synology.com/security/advisory/Synology_SA_21_02']
+www.vicarius.io,['https://www.vicarius.io/vsociety/posts/sudoedit-pwned-cve-2021-3156']
+bugzilla.redhat.com,"['https://bugzilla.redhat.com/show_bug.cgi?id=2024237', 'https://bugzilla.redhat.com/show_bug.cgi?id=1917192', 'https://bugzilla.redhat.com/show_bug.cgi?id=1946965', 'https://bugzilla.redhat.com/show_bug.cgi?id=1954250']"
+access.redhat.com,"['https://access.redhat.com/security/cve/CVE-2021-31566', 'https://access.redhat.com/security/cve/cve-2021-31917']"
+wordpress.org,['https://wordpress.org/plugins/download-monitor/#developers']
+patchstack.com,['https://patchstack.com/database/vulnerability/download-monitor/wordpress-download-monitor-plugin-4-4-6-authenticated-arbitrary-file-download-vulnerability']
+corp.mediatek.com,"['https://corp.mediatek.com/product-security-acknowledgements', 'https://corp.mediatek.com/product-security-acknowledgements', 'https://corp.mediatek.com/product-security-acknowledgements', 'https://corp.mediatek.com/product-security-acknowledgements', 'https://corp.mediatek.com/product-security-acknowledgements', 'https://corp.mediatek.com/product-security-acknowledgements']"
+www.rapid7.com,"['https://www.rapid7.com/blog/post/2021/06/08/akkadian-provisioning-manager-multiple-vulnerabilities-disclosure/', 'https://www.rapid7.com/blog/post/2021/06/08/akkadian-provisioning-manager-multiple-vulnerabilities-disclosure/', 'https://www.rapid7.com/blog/post/2021/06/08/akkadian-provisioning-manager-multiple-vulnerabilities-disclosure/', 'https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/', 'https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/', 'https://www.rapid7.com/blog/post/2021/06/02/untitled-cve-2021-3198-and-cve-2021-3540-mobileiron-shell-escape-privilege-escalation-vulnerabilities/']"
+www.zeroscience.mk,"['https://www.zeroscience.mk/en/vulnerabilities', 'https://www.zeroscience.mk/en/vulnerabilities/ZSL-2021-5648.php', 'https://www.zeroscience.mk/en/vulnerabilities', 'https://www.zeroscience.mk/en/vulnerabilities/ZSL-2021-5649.php']"
+www.sipwise.com,"['https://www.sipwise.com', 'https://www.sipwise.com']"
+lists.sipwise.com,"['http://lists.sipwise.com/pipermail/spce-user_lists.sipwise.com/2021-September/014708.html', 'http://lists.sipwise.com/pipermail/spce-user_lists.sipwise.com/2021-September/014708.html']"
+cxsecurity.com,['https://cxsecurity.com/issue/WLB-2022010013']
+www.dgc.org,['https://www.dgc.org/responsible_disclosure_pwndoc_jwt']
+people.kingsds.network,['https://people.kingsds.network/wesgarland/xmlhttprequest-ssl-vuln.txt']
+sourceforge.net,['https://sourceforge.net/p/ezxml/bugs/28/']
+www.hitachi.com,"['https://www.hitachi.com/hirt/security/index.html', 'https://www.hitachi.com/hirt/security/index.html', 'https://www.hitachi.com/hirt/security/index.html', 'https://www.hitachi.com/hirt/security/index.html', 'https://www.hitachi.com/hirt/security/index.html', 'https://www.hitachi.com/hirt/hitachi-sec/2021/601.html']"
+www.aca.fr,['https://www.aca.fr/solution/assurex-solution-gestion-des-contrats-assurance/']
+www.digital.security,['https://www.digital.security/fr/sites/default/files/advisories/cert-ds_advisory_cve-2021-3160.txt']
+sec.stealthcopter.com,['https://sec.stealthcopter.com/saltstack-snapper-minion-privledge-escaltion/']
+www.proofpoint.com,['https://www.proofpoint.com/us/security/security-advisories/pfpt-sa-2021-0011']
+www.silabs.com,['https://www.silabs.com/wireless/bluetooth/bluegiga-classic-legacy-modules/device.wt32i-a']
+dl.packetstormsecurity.net,"['https://dl.packetstormsecurity.net/papers/general/braktooth.pdf', 'https://dl.packetstormsecurity.net/papers/general/braktooth.pdf', 'https://dl.packetstormsecurity.net/papers/general/braktooth.pdf', 'https://dl.packetstormsecurity.net/papers/general/braktooth.pdf', 'https://dl.packetstormsecurity.net/papers/general/braktooth.pdf', 'https://dl.packetstormsecurity.net/papers/general/braktooth.pdf']"
+www.bluetrum.com,"['http://www.bluetrum.com/product/bt8896a.html', 'http://www.bluetrum.com/product/ab5376t.html']"
+www.mi.com,['https://www.mi.com/global/mi-true-wireless-earbuds-basic-2/']
+www.zh-jieli.com,"['http://www.zh-jieli.com/product/68-cn.html', 'http://www.zh-jieli.com/product/68-cn.html', 'http://www.zh-jieli.com/product/68-cn.html']"
+launchstudio.bluetooth.com,"['https://launchstudio.bluetooth.com/ListingDetails/58628', 'https://launchstudio.bluetooth.com/ListingDetails/19746', 'https://launchstudio.bluetooth.com/ListingDetails/19746', 'https://launchstudio.bluetooth.com/ListingDetails/58628', 'https://launchstudio.bluetooth.com/ListingDetails/19746', 'https://launchstudio.bluetooth.com/ListingDetails/76427']"
+bluetooth.com,['https://bluetooth.com']
+www.bluetooth.com,['https://www.bluetooth.com/learn-about-bluetooth/key-attributes/bluetooth-security/injectable/']
+blog.inhq.net,['https://blog.inhq.net/posts/keepkey-CVE-2021-31616/']
+shapeshift.com,['https://shapeshift.com/library/keepkey-important-update-issued-april-4-required']
+advisories.stormshield.eu,"['https://advisories.stormshield.eu/', 'https://advisories.stormshield.eu/2021-020/', 'https://advisories.stormshield.eu/', 'https://advisories.stormshield.eu/2021-019/']"
+httpd.apache.org,['http://httpd.apache.org/security/vulnerabilities_24.html']
+docs.docker.com,['https://docs.docker.com/docker-for-mac/release-notes/#docker-desktop-community-2500']
+twitter.com,['https://twitter.com/_r3ggi']
+tenda.com,"['http://tenda.com', 'http://tenda.com']"
+quilljs.com,['https://quilljs.com']
+burninatorsec.blogspot.com,['https://burninatorsec.blogspot.com/2021/04/cve-2021-3163-xss-slab-quill-js.html']
+www.youtube.com,['https://www.youtube.com/watch?v=l08DHB08Gow']
+gist.github.com,"['https://gist.github.com/stacksmasher007/76514ab2b782fb4383f1121e6fc19241', 'https://gist.github.com/Stacksmashers101/c6b9ea92f42c23473170bb3acc8fc5fe', 'https://gist.github.com/purabparihar/d1401e59f9e699e71e3d700cc99e02a6', 'https://gist.github.com/bc0d3/6d55866a78f66569383241406e18794f', 'https://gist.github.com/tj-oconnor/16a4116050bbcb4717315f519b944f1f']"
+gitbook.seguranca-informatica.pt,"['https://gitbook.seguranca-informatica.pt/cve-and-exploits/cves/chiyu-iot-devices#cve-2021-31641', 'https://gitbook.seguranca-informatica.pt/cve-and-exploits/cves/chiyu-iot-devices#cve-2021-31642', 'https://gitbook.seguranca-informatica.pt/cve-and-exploits/cves/chiyu-iot-devices#cve-2021-31643']"
+seguranca-informatica.pt,"['https://seguranca-informatica.pt/dancing-in-the-iot-chiyu-devices-vulnerable-to-remote-attacks/#.YLY_lXmSlPY', 'https://seguranca-informatica.pt/dancing-in-the-iot-chiyu-devices-vulnerable-to-remote-attacks/', 'https://seguranca-informatica.pt/dancing-in-the-iot-chiyu-devices-vulnerable-to-remote-attacks/']"
+www.chiyu-tech.com,"['https://www.chiyu-tech.com/msg/message-Firmware-update-87.html', 'https://www.chiyu-tech.com/msg/message-Firmware-update-87.html', 'https://www.chiyu-tech.com/msg/message-Firmware-update-87.html']"
+glftpd.io,['https://glftpd.io/']
+www.exploit-db.com,"['https://www.exploit-db.com/exploits/49773', 'https://www.exploit-db.com/exploits/49493', 'https://www.exploit-db.com/exploits/50908', 'https://www.exploit-db.com/exploits/49859']"
+gestsup.fr,"['https://gestsup.fr/index.php?page=download', 'https://gestsup.fr/index.php?page=download&channel=beta&version=3.2.10&type=patch']"
+dojo.maltem.ca,['https://dojo.maltem.ca/public/advisories/CVE-2021-31646.html']
+note.youdao.com,"['http://note.youdao.com/noteshare?id=787ccbb8345dbd4a905aebe35f1d8aa8&sub=6C5C072C901949429EFD978405212FA4', 'https://note.youdao.com/ynoteshare1/index.html?id=787ccbb8345dbd4a905aebe35f1d8aa8&type=note']"
+orionhridoy.me,['https://orionhridoy.me']
+www.smtagent.com,['https://www.smtagent.com/support']
+trendnet.com,['http://trendnet.com']
+tv-ip110wn.com,['http://tv-ip110wn.com']
+tp-link.com,"['http://tp-link.com', 'http://tp-link.com']"
+kaisersource.github.io,['https://kaisersource.github.io/dsl-n14u']
+docs.cloudera.com,"['https://docs.cloudera.com/documentation/other/security-bulletins/topics/Security-Bulletin.html', 'https://docs.cloudera.com/data-engineering/cloud/release-notes/topics/cde-general-known-issues.html']"
+my.cloudera.com,['https://my.cloudera.com/knowledge/TSB-2021-466-CDE-authentication-tokens-exposed-in-pod-and?id=310163']
+cyclos.com,"['http://cyclos.com', 'http://cyclos.com']"
+tf1t.gitbook.io,"['https://tf1t.gitbook.io/mycve/cylos/cyclos-4.14.7-dom-based-cross-site-scripting-cve-2021-31673', 'https://tf1t.gitbook.io/mycve/cylos/cyclos-4.14.7-dom-based-cross-site-scripting-in-undefined-enum-cve-2021-31674']"
+huntr.dev,"['https://huntr.dev/bounties/1-other-yolov5/', 'https://huntr.dev/bounties/1-other-yolov3/', 'https://huntr.dev/bounties/1-other-mjs/']"
+www.automatedlogic.com,['https://www.automatedlogic.com/en/products-services/webctrl-building-automation-system/']
+mp.weixin.qq.com,['https://mp.weixin.qq.com/s/5tgcaIrnDnGP-LvWPw9YCg']
+s.tencent.com,['https://s.tencent.com/research/bsafe/1228.html']
+blog.fit2cloud.com,['https://blog.fit2cloud.com/?p=1764']
+nns.ee,['https://nns.ee/blog/2021/04/03/modem-rce.html']
+framagit.org,['https://framagit.org/medoc92/npupnp']
+www.lesbonscomptes.com,['https://www.lesbonscomptes.com/upmpdcli/npupnp-doc/libnpupnp.html']
+chevereto.com,['http://chevereto.com']
+www.akuvox.com,['https://www.akuvox.com/ProductsDisp.aspx?pid=21']
+pastebin.com,['https://pastebin.com/yv4ajFjD']
+www.pentagrid.ch,"['https://www.pentagrid.ch/en/blog/multiple-vulnerabilities-in-seppmail/', 'https://www.pentagrid.ch/en/blog/multiple-vulnerabilities-in-seppmail/']"
+www.mitel.com,"['https://www.mitel.com/support/security-advisories', 'https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-21-0001']"
+youtu.be,"['https://youtu.be/D45FN8QrzDo', 'https://youtu.be/23VvUMu-28c', 'https://youtu.be/qCvEXwyaF5U']"
+bugs.python.org,['https://bugs.python.org/issue42938']
+python-security.readthedocs.io,['https://python-security.readthedocs.io/vuln/ctypes-buffer-overflow-pycarg_repr.html']
+news.ycombinator.com,['https://news.ycombinator.com/item?id=26185005']
+docs.aviatrix.com,"['https://docs.aviatrix.com/Downloads/samlclient.html', 'https://docs.aviatrix.com/HowTos/changelog.html#aviatrix-vpn-client-changelog', 'https://docs.aviatrix.com/Downloads/samlclient.html#windows-win']"
+typo3.org,"['https://typo3.org/security/advisory/typo3-ext-sa-2021-005', 'https://typo3.org/security/advisory/typo3-ext-sa-2021-004', 'https://typo3.org/security/advisory/typo3-ext-sa-2021-006']"
+patchwork.kernel.org,['https://patchwork.kernel.org/project/linux-nfs/patch/20210111210129.GA11652%40fieldses.org/']
+git.kernel.org,"['https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=51b2ee7d006a736a9126e8111d1f24e4fd0afaa6', 'https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=292650f04c2b5348b4efbad61fb014ed09b4f3f2', 'https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=2e48a12ab1e30d43498c2d53e878a11a1b5102d5', 'https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=9b1c91577aef7f2e72c3aa11a27749160bd278ff', 'https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=a31ae8c508fc8d1bca4f57e9f9f88127572d5202']"
+piwigo.org,['https://piwigo.org/ext/index.php?cid=null']
+www.opendesign.com,['https://www.opendesign.com/security-advisories']
+cert-portal.siemens.com,"['https://cert-portal.siemens.com/productcert/pdf/ssa-155599.pdf', 'https://cert-portal.siemens.com/productcert/pdf/ssa-114589.pdf', 'https://cert-portal.siemens.com/productcert/pdf/ssa-044112.pdf', 'https://cert-portal.siemens.com/productcert/pdf/ssa-620288.pdf', 'https://cert-portal.siemens.com/productcert/html/ssa-114589.html', 'https://cert-portal.siemens.com/productcert/html/ssa-044112.html']"
+www.actions-semi.com,"['https://www.actions-semi.com/index.php?id=3581&siteId=4', 'https://www.actions-semi.com/index.php?id=3581&siteId=4', 'https://www.actions-semi.com/index.php?id=3581&siteId=4']"
+apps.apple.com,['https://apps.apple.com/us/app/gglocker/id1449241376#?platform=iphone']
+medium.com,['https://medium.com/%40ksteo11/yet-another-password-manager-app-how-to-better-secure-it-8e9df2ce35c8']
+www.sentrysoftware.com,['https://www.sentrysoftware.com/library/releaseNotes/index.html?hardwaresentrykmforpatrol10_0_01releasenotes.htm']
+docs.suitecrm.com,['https://docs.suitecrm.com/admin/releases/7.11.x/#_7_11_19']
+chris-forbes.github.io,['https://chris-forbes.github.io/CVE-2021-31792']
+cloud.binary.ninja,['https://cloud.binary.ninja/embed/f4400a22-c438-403a-bf2a-939ca44a4f6b']
+www.directum.ru,['https://www.directum.ru/']
+mcyoloswagham.github.io,['https://mcyoloswagham.github.io/linux/']
+www.cyberark.com,"['https://www.cyberark.com/resources/blog', 'https://www.cyberark.com/resources/blog', 'https://www.cyberark.com/resources/blog']"
+korelogic.com,"['https://korelogic.com/Resources/Advisories/KL-001-2021-008.txt', 'https://korelogic.com/Resources/Advisories/KL-001-2021-009.txt', 'https://korelogic.com/Resources/Advisories/KL-001-2021-010.txt']"
+www.ruby-lang.org,"['https://www.ruby-lang.org/en/news/2021/05/02/os-command-injection-in-rdoc/', 'https://www.ruby-lang.org/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/']"
+security-tracker.debian.org,['https://security-tracker.debian.org/tracker/CVE-2021-31799']
+www.netgear.com,['https://www.netgear.com/about/security/']
+ssd-disclosure.com,['https://ssd-disclosure.com/ssd-advisory-netgear-nighthawk-r7000-httpd-preauth-rce/']
+docs.cpanel.net,['https://docs.cpanel.net/changelogs/94-change-log/']
+cwiki.apache.org,['https://cwiki.apache.org/confluence/display/WW/S2-062']
+www.squid-cache.org,"['http://www.squid-cache.org/Versions/v4/changesets/squid-4-e7cf864f938f24eea8af0692c04d16790983c823.patch', 'http://www.squid-cache.org/Versions/v4/changesets/squid-4-e7cf864f938f24eea8af0692c04d16790983c823.patch', 'http://www.squid-cache.org/Versions/v4/changesets/squid-4-e7cf864f938f24eea8af0692c04d16790983c823.patch']"
+gitlab.com,"['https://gitlab.com/muttmua/mutt/-/issues/323', 'https://gitlab.com/muttmua/mutt/-/commit/4a2becbdb4422aaffe3ce314991b9d670b7adf17', 'https://gitlab.com/muttmua/mutt/-/commit/939b02b33ae29bc0d642570c1dcfd4b339037d19', 'https://gitlab.com/muttmua/mutt/-/commit/d4305208955c5cdd9fe96dfa61e7c1e14e176a14']"
+hackerone.com,['https://hackerone.com/reports/1145454']
+raxis.com,['https://raxis.com/blog/cve-2021-31813']
+themarkup.org,['https://themarkup.org/privacy/2021/04/27/google-promised-its-contact-tracing-app-was-completely-private-but-it-wasnt']
+blog.appcensus.io,['https://blog.appcensus.io/2021/04/27/why-google-should-stop-logging-contact-tracing-data/']
+advisories.octopus.com,"['https://advisories.octopus.com/adv/2021-05---Cleartext-Storage-of-Sensitive-Information-%28CVE-2021-31816%29.2121793537.html', 'https://advisories.octopus.com/adv/2021-06---Cleartext-Storage-of-Sensitive-Information-%28CVE-2021-31817%29.2121138201.html', 'https://advisories.octopus.com/adv/2021-04---SQL-Injection-in-the-Events-REST-API-%28CVE-2021-31818%29.2013233248.html', 'https://advisories.octopus.com/adv/2021-08---Remote-Code-Execution-via-Deserialisation-in-the-Halibut-Protocol-%28CVE-2021-31819%29.2250309681.html', 'https://advisories.octopus.com/adv/2021-07---Proxy-Password-Stored-in-Plaintext-%28CVE-2021-31820%29.2193063986.html', 'https://advisories.octopus.com/post/2022/sa2022-01/']"
+supportannouncement.us.dlink.com,['https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10203']
+shibboleth.net,['https://shibboleth.net/community/advisories/secadv_20210426.txt']
+issues.shibboleth.net,['https://issues.shibboleth.net/jira/browse/SSPCPP-927']
+git.shibboleth.net,['https://git.shibboleth.net/view/?p=cpp-sp.git%3Ba=commit%3Bh=5a47c3b9378f4c49392dd4d15189b70956f9f2ec']
+bugs.debian.org,['https://bugs.debian.org/987608']
+www.progress.com,['https://www.progress.com/moveit']
+community.progress.com,['https://community.progress.com/s/article/MOVEit-Transfer-Vulnerability-April-2021']
+docs.ipswitch.com,['https://docs.ipswitch.com/MOVEit/Transfer2021/ReleaseNotes/en/index.htm']
+opendistro.github.io,['https://opendistro.github.io/for-elasticsearch-docs/version-history/']
+rotem-bar.com,['https://rotem-bar.com/ssrf-in-open-distro-for-elasticsearch-cve-2021-31828']
+kde.org,['https://kde.org/info/security/advisory-20210429-1.txt']
+meshery.io,['https://meshery.io']
+www.dnnsoftware.com,['https://www.dnnsoftware.com/community/security/security-center']
+labs.integrity.pt,['https://labs.integrity.pt/advisories/cve-2021-31858/']
+www.ysoft.com,"['https://www.ysoft.com/en', 'https://www.ysoft.com/en/legal/ysoft-safeq-flexispooler']"
+www.hackingarticles.in,['https://www.hackingarticles.in/exploiting-stored-cross-site-scripting-at-tenda-ac5-ac1200/']
+www.sysaid.com,['https://www.sysaid.com/product/on-premise/latest-release']
+www.redmine.org,"['https://www.redmine.org/projects/redmine/wiki/Security_Advisories', 'https://www.redmine.org/news/131', 'https://www.redmine.org/projects/redmine/wiki/Security_Advisories', 'https://www.redmine.org/news/131', 'https://www.redmine.org/projects/redmine/wiki/Security_Advisories', 'https://www.redmine.org/news/131']"
+docs.rapid7.com,['https://docs.rapid7.com/release-notes/nexpose/20210804/']
+kernel.org,"['https://kernel.org/pub/linux/libs/klibc/2.0/', 'https://kernel.org/pub/linux/libs/klibc/2.0/', 'https://kernel.org/pub/linux/libs/klibc/2.0/', 'https://kernel.org/pub/linux/libs/klibc/2.0/']"
+lists.zytor.com,"['https://lists.zytor.com/archives/klibc/2021-April/004593.html', 'https://lists.zytor.com/archives/klibc/2021-April/004593.html', 'https://lists.zytor.com/archives/klibc/2021-April/004593.html', 'https://lists.zytor.com/archives/klibc/2021-April/004593.html']"
+pitstop.manageengine.com,['https://pitstop.manageengine.com/portal/en/community/topic/adselfservice-plus-6104-released-with-an-important-security-fixes']
+blog.stmcyber.com,['https://blog.stmcyber.com/vulns/cve-2021-31874/']
+en.bitcoin.it,['https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2021-31876']
+bitcoinops.org,"['https://bitcoinops.org/en/topics/replace-by-fee/', 'https://bitcoinops.org/en/newsletters/2021/05/12/']"
+lists.linuxfoundation.org,['https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-May/018893.html']
+downloads.asterisk.org,['http://downloads.asterisk.org/pub/security/AST-2021-007.html']
+issues.asterisk.org,['https://issues.asterisk.org/jira/browse/ASTERISK-29381']
+downloads.digium.com,['https://downloads.digium.com/pub/security/AST-2021-007.html']
+mail.gnu.org,['https://mail.gnu.org/archive/html/bug-wget/2021-02/msg00002.html']
+wehackmx.com,['https://wehackmx.com/security-research/WeHackMX-2021-001/']
+www.npmjs.com,['https://www.npmjs.com/package/slashify']
+securitylab.github.com,['https://securitylab.github.com/advisories/GHSL-2020-199-open-redirect-slashify']
+us-cert.cisa.gov,['https://us-cert.cisa.gov/ics/advisories/icsa-21-194-04']
+blog.jetbrains.com,"['https://blog.jetbrains.com', 'https://blog.jetbrains.com/blog/2021/05/07/jetbrains-security-bulletin-q1-2021/', 'https://blog.jetbrains.com', 'https://blog.jetbrains.com/blog/2021/05/07/jetbrains-security-bulletin-q1-2021/', 'https://blog.jetbrains.com', 'https://blog.jetbrains.com/blog/2021/05/07/jetbrains-security-bulletin-q1-2021/']"
+advisory.checkmarx.net,['https://advisory.checkmarx.net/advisory/CX-2021-4772']
+idelji.com,['https://idelji.com']
+techpartner.ext.hpe.com,['https://techpartner.ext.hpe.com/TechPartner/PartnerDetail.xhtml?Partner=Idelji']
+support.hpe.com,['https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbns04081en_us']
+rustsec.org,['https://rustsec.org/advisories/RUSTSEC-2021-0054.html']
+istio.io,"['https://istio.io/latest/news/security/istio-security-2021-005/', 'https://istio.io/latest/news/security/istio-security-2021-006/']"
+kb.pulsesecure.net,['https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44790']
+docs.pingidentity.com,['https://docs.pingidentity.com/bundle/pingaccess-53/page/wco1629833104567.html']
+www.yubico.com,['https://www.yubico.com/support/security-advisories/ysa-2021-03']
+developers.yubico.com,['https://developers.yubico.com/pam-u2f/']
+docs.pexip.com,"['https://docs.pexip.com/admin/security_bulletins.htm', 'https://docs.pexip.com/admin/security_bulletins.htm#CVE-2021-31925']"
+www.annexcloud.com,"['https://www.annexcloud.com/', 'https://www.annexcloud.com/', 'https://www.annexcloud.com/']"
+www.nagios.com,['https://www.nagios.com/products/security/']
+support.chamilo.org,['https://support.chamilo.org/projects/1/wiki/Security_issues#Issue-48-2021-04-17-Critical-impact-high-risk-Remote-Code-Execution']
+portal.msrc.microsoft.com,"['https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31936', 'https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31938', 'https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31939', 'https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31940', 'https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31941', 'https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31942']"
+msrc.microsoft.com,['https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31937']
+www.hitachi-id.com,['https://www.hitachi-id.com/cve-2021-3196-attackers-can-impersonate-another-user']
+saltproject.io,['https://saltproject.io/security_announcements/active-saltstack-cve-release-2021-feb-25/']

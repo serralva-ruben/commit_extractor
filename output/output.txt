@@ -1,0 +1,114 @@
+{
+    "seclists.org": [
+        "http://seclists.org/fulldisclosure/2021/May/20"
+    ],
+    "www.openwall.com": [
+        "http://www.openwall.com/lists/oss-security/2021/05/04/4",
+        "https://www.openwall.com/lists/oss-security/2021/05/18/2",
+        "http://www.openwall.com/lists/oss-security/2021/05/18/2"
+    ],
+    "github.com": [
+        "https://github.com/furlongm/openvpn-monitor/commit/ddb9d31ef0ec56f578bdacf99ebe9d68455ed8ca",
+        "https://github.com/opendistro-for-elasticsearch/alerting/pull/353",
+        "https://github.com/torvalds/linux/commit/801c6058d14a82179a7ee17a4b532cac6fad067f"
+    ],
+    "dl.packetstormsecurity.net": [
+        "https://dl.packetstormsecurity.net/papers/general/braktooth.pdf"
+    ],
+    "unparalleled.eu": [
+        "https://unparalleled.eu/publications/2021/advisory-unpar-2021-1.txt",
+        "https://unparalleled.eu/blog/2021/20210518-using-xterm-to-navigate-the-huge-color-space/"
+    ],
+    "lists.x.org": [
+        "https://lists.x.org/archives/xorg-announce/2021-May/003088.html"
+    ],
+    "bugs.debian.org": [
+        "https://bugs.debian.org/987608"
+    ],
+    "sourceforge.net": [
+        "https://sourceforge.net/p/ezxml/bugs/28/"
+    ],
+    "www.oracle.com": [
+        "https://www.oracle.com/security-alerts/cpujan2022.html",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://www.oracle.com//security-alerts/cpujul2021.html",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://www.oracle.com/security-alerts/cpujul2022.html"
+    ],
+    "lists.linuxfoundation.org": [
+        "https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-May/018893.html"
+    ],
+    "git.kernel.org": [
+        "https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=9b1c91577aef7f2e72c3aa11a27749160bd278ff",
+        "https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=a31ae8c508fc8d1bca4f57e9f9f88127572d5202",
+        "https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=2e48a12ab1e30d43498c2d53e878a11a1b5102d5",
+        "https://git.kernel.org/pub/scm/libs/klibc/klibc.git/commit/?id=292650f04c2b5348b4efbad61fb014ed09b4f3f2",
+        "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=51b2ee7d006a736a9126e8111d1f24e4fd0afaa6"
+    ],
+    "lists.zytor.com": [
+        "https://lists.zytor.com/archives/klibc/2021-April/004593.html"
+    ],
+    "security-tracker.debian.org": [
+        "https://security-tracker.debian.org/tracker/CVE-2021-31799"
+    ],
+    "www.rapid7.com": [
+        "https://www.rapid7.com/blog/post/2021/06/08/akkadian-provisioning-manager-multiple-vulnerabilities-disclosure/",
+        "https://www.rapid7.com/blog/post/2021/07/27/multiple-open-source-web-app-vulnerabilities-fixed/"
+    ],
+    "korelogic.com": [
+        "https://korelogic.com/Resources/Advisories/KL-001-2021-008.txt"
+    ],
+    "gist.github.com": [
+        "https://gist.github.com/bc0d3/6d55866a78f66569383241406e18794f"
+    ],
+    "docs.suitecrm.com": [
+        "https://docs.suitecrm.com/admin/releases/7.11.x/#_7_11_19"
+    ],
+    "www.dnnsoftware.com": [
+        "https://www.dnnsoftware.com/community/security/security-center"
+    ],
+    "www.kb.cert.org": [
+        "https://www.kb.cert.org/vuls/id/794544"
+    ],
+    "bugzilla.redhat.com": [
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1917192",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1946965",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2024237"
+    ],
+    "phabricator.wikimedia.org": [
+        "https://phabricator.wikimedia.org/T277388",
+        "https://phabricator.wikimedia.org/T275669",
+        "https://phabricator.wikimedia.org/T272244",
+        "https://phabricator.wikimedia.org/T152394"
+    ],
+    "python-security.readthedocs.io": [
+        "https://python-security.readthedocs.io/vuln/ctypes-buffer-overflow-pycarg_repr.html"
+    ],
+    "patchwork.kernel.org": [
+        "https://patchwork.kernel.org/project/linux-nfs/patch/20210111210129.GA11652%40fieldses.org/"
+    ],
+    "bugs.python.org": [
+        "https://bugs.python.org/issue42938"
+    ],
+    "www.sudo.ws": [
+        "https://www.sudo.ws/stable.html#1.9.5p2"
+    ],
+    "news.ycombinator.com": [
+        "https://news.ycombinator.com/item?id=26185005"
+    ],
+    "docs.cloudera.com": [
+        "https://docs.cloudera.com/data-engineering/cloud/release-notes/topics/cde-general-known-issues.html"
+    ],
+    "gestsup.fr": [
+        "https://gestsup.fr/index.php?page=download&channel=beta&version=3.2.10&type=patch"
+    ],
+    "blog.inhq.net": [
+        "https://blog.inhq.net/posts/keepkey-CVE-2021-31616/"
+    ],
+    "docs.docker.com": [
+        "https://docs.docker.com/docker-for-mac/release-notes/#docker-desktop-community-2500"
+    ],
+    "httpd.apache.org": [
+        "http://httpd.apache.org/security/vulnerabilities_24.html"
+    ]
+}
